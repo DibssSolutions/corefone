@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="98px" viewBox="0 0 96 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Corefone_ManualWeb-4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-970.000000, -961.000000)" id="Group-19">
+            <g transform="translate(357.000000, 961.000000)">
+                <g id="Group-6" transform="translate(614.000000, 0.000000)">
+                    <g id="Corefone_ManualWeb-4">
+                        <path d="M4.76204545,45.9883492 C5.7808318,23.2925912 24.1219236,5.4335391 46.3870455,5.45728813" id="Shape" stroke="#147EEC" stroke-width="2"></path>
+                        <polyline id="Shape" stroke="#147EEC" stroke-width="2" points="9.50477273 41.1488252 4.77465909 45.9883492 0.0319318182 41.1488252"></polyline>
+                        <path d="M49.5909091,5.47020666 C71.8327226,6.50978594 89.3345705,25.2252105 89.3112965,47.9447525" id="Shape" stroke="#147EEC" stroke-width="2"></path>
+                        <polyline id="Shape" stroke="#147EEC" stroke-width="2" points="54.2831818 10.3097307 49.5530682 5.48307774 54.2831818 0.6564248"></polyline>
+                        <path d="M89.4373864,51.6001377 C88.4186,74.2958957 70.0775082,92.1549478 47.8123864,92.1311988" id="Shape" stroke="#147EEC" stroke-width="2"></path>
+                        <polyline id="Shape" stroke="#147EEC" stroke-width="2" points="84.6946591 56.4396617 89.4247727 51.6001377 94.1548864 56.4396617"></polyline>
+                        <path d="M44.6463636,92.1182802 C22.4045501,91.078701 4.9027022,72.3632764 4.92597622,49.6437344" id="Shape" stroke="#147EEC" stroke-width="2"></path>
+                        <polyline id="Shape" stroke="#147EEC" stroke-width="2" points="39.91625 87.2787562 44.6463636 92.1054092 39.91625 96.9320621"></polyline>
+                        <path d="M53.2614773,35.5112946 L25.1835227,35.5112946 C22.7481867,35.5183644 20.7756785,37.5311306 20.76875,40.0161706 L20.76875,60.3653394 C20.7756785,62.8503795 22.7481867,64.8631456 25.1835227,64.8702155 L49.5909091,64.8702155 L57.6257955,73.06909 L57.6257955,40.0161706 C57.6191577,37.5510187 55.6770871,35.5464015 53.2614773,35.5112946 Z" id="Shape" stroke="#147EEC" stroke-width="2"></path>
+                        <path d="M51.2180682,30.1311854 L71.3998864,30.1311854 C73.1455607,30.1382402 74.5589954,31.5805224 74.5659091,33.3618251 L74.5659091,47.9833658 C74.5589954,49.7646684 73.1455607,51.2069507 71.3998864,51.2140055 L53.8164773,51.2140055 L48.0394318,57.1089576 L48.0394318,33.3618251 C48.0463786,31.5755121 49.4674699,30.1311714 51.2180682,30.1311854 L51.2180682,30.1311854 Z" id="Shape" stroke="#147EEC" stroke-width="2"></path>
+                        <path d="M49.1368182,30.1311854 L21.0588636,30.1311854 C18.6235276,30.1382553 16.6510194,32.1510215 16.6440909,34.6360615 L16.6440909,54.9852303 C16.6510194,57.4702703 18.6235276,59.4830365 21.0588636,59.4901064 L45.5167045,59.4901064 L53.5515909,67.6889808 L53.5515909,34.6360615 C53.5446625,32.1510215 51.5721542,30.1382553 49.1368182,30.1311854 Z" id="Shape" fill="#558CCE" fill-rule="nonzero" opacity="0.15" style="mix-blend-mode: multiply;"></path>
+                        <g id="Group" opacity="0.15" style="mix-blend-mode: multiply;" transform="translate(59.681818, 22.747137)" fill="#558CCE" fill-rule="nonzero">
+                            <polygon id="Rectangle-path" points="0.517159091 0.0990204274 5.33556818 0.0990204274 5.33556818 15.6858917 0.517159091 15.6858917"></polygon>
+                            <polygon id="Rectangle-path" points="0.517159091 18.4917859 5.33556818 18.4917859 5.33556818 23.2412124 0.517159091 23.2412124"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

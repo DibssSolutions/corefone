@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="34px" viewBox="0 0 109 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 40</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-/-Mobile" transform="translate(-30.000000, -3046.000000)">
+            <g id="Group-8" transform="translate(30.000000, 3034.000000)">
+                <g id="Group-40" transform="translate(0.000000, 5.897436)">
+                    <g id="Group-39">
+                        <path d="M37.6765339,23.6071995 L37.6765339,23.5162358 C37.6700206,14.6645208 44.1077676,6.91064432 53.5728971,6.90347476 C63.0380266,6.89585711 69.397614,14.5489117 69.4041273,23.3988343 L69.4041273,23.4911423 C69.4106406,32.3410649 62.9728936,40.0949414 53.5077641,40.1025591 C44.0426346,40.1097286 37.6830472,32.456674 37.6765339,23.6071995" id="Fill-1" fill-opacity="0.247877038" fill="#364049"></path>
+                        <polygon id="Fill-3" fill-opacity="0.247877038" fill="#364049" points="32.7190909 40.0772467 0.0245139288 40.1025641 0 6.92878647 32.6941392 6.90346908"></polygon>
+                        <polygon id="Clip-6" points="75.505237 0.4166702 108.767246 0.4166702 108.767246 33.199095 75.505237 33.199095"></polygon>
+                    </g>
+                    <polygon id="Fill-5" fill-opacity="0.247877038" fill="#364049" points="76.2272727 7.10211559 76.25234 40.1025641 109.063636 7.07692308"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

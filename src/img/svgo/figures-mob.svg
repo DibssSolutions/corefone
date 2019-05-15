@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="171px" height="52px" viewBox="0 0 171 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 8 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-/-Mobile" transform="translate(-105.000000, -2437.000000)">
+            <g id="Group-8-Copy" transform="translate(105.000000, 2427.000000)">
+                <g id="Group-40">
+                    <g id="Group-39">
+                        <path d="M59.072735,36.4975758 L59.072735,36.3569425 C59.0625229,22.6718742 69.1562148,10.6841036 83.9965153,10.6730192 C98.8368159,10.661242 108.807962,22.4931384 108.818174,36.1754356 L108.818174,36.3181472 C108.828386,50.0004444 98.7346943,61.9882151 83.8943938,61.9999922 C69.0540932,62.0110766 59.0829472,50.1791802 59.072735,36.4975758" id="Fill-1" fill="#63D50A"></path>
+                        <polygon id="Fill-3" fill="#147EEC" points="51.3 61.9608584 0.0384351921 62 0 10.712152 51.2608785 10.6730104"></polygon>
+                        <polygon id="Clip-6" points="118.384055 0.644187049 170.535292 0.644187049 170.535292 51.3269896 118.384055 51.3269896"></polygon>
+                    </g>
+                    <polygon id="Fill-5" fill="#FF5C39" points="119.516129 10.980125 119.555432 62 171 10.9411765"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

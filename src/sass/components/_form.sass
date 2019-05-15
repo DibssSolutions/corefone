@@ -1,0 +1,37 @@
+.form
+	text-align: center
+	&__title
+		margin-bottom: 25px
+	&__footer
+		margin-top: 12px
+		+sm
+			margin-top: 4px
+.form-control
+	&:not(:first-child)
+		margin-top: 14px
+		+sm
+			margin-top: 12px
+	input,
+	textarea
+		padding: 14px 19px
+		height: 43px
+		width: 100%
+		+fmt
+		color: #364049
+		+f(12px,400,1.25)
+		border: 1px solid #147EEC
+		border-radius: 20px
+		+sm
+			height: 50px
+			border-radius: 25px
+		&::placeholder
+			color: rgba(#364049, .57)
+		&:focus
+			&::placeholder
+				font-size: 0
+	textarea
+		padding-top: 19px
+		height: 176px
+		resize: none
+		+sm
+			height: 152px

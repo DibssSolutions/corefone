@@ -1,0 +1,79 @@
+<!-- begin footer -->
+<div class="footer">
+	<div class="footer__inner inner">
+		<div class="footer__top">
+			<div class="footer__left">
+				<a href="#" class="footer__logo">
+					<img src="./img/logo-sm.svg" alt="img">
+				</a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamquis.</p>
+				<ul class="footer__soc soc sm-hide">
+					<li class="soc__item"><a href="#">{{ mixins.icon('in') }}</a></li>
+					<li class="soc__item"><a href="#">{{ mixins.icon('tw') }}</a></li>
+					<li class="soc__item"><a href="#">{{ mixins.icon('fb') }}</a></li>
+				</ul>
+			</div>
+			<div class="footer__center">
+				<div class="footer__title">Servicios</div>
+				<ul class="footer__list row">
+					{% for text in ["Servicio de Encuestas","Ventas Telefónicas","Inbound Marketing","Atención de llamadas","Gestión de Contactos","Atención de números","Call Center","Servicios Integrales","Gestión de Cobros"] %}
+					    <li class="footer__list-item col col-6">
+					    	<a href="#">{{ text }}</a>
+					    </li>
+					{% endfor %}
+					
+				</ul>
+			</div>
+			<div class="footer__right">
+				<div class="footer__title">CONTACTO</div>
+				<div class="footer__mail">
+					<a href="#">info@corefone.com</a>
+				</div>
+				<div class="cities row">
+					{% for item in [
+						{
+							title: 'Uruguay',
+							phone: '(+598) 4562 0224'
+						},
+						{
+							title: 'Chile',
+							phone: '(2) 2570 8416'
+						},
+						{
+							title: 'Mexico',
+							phone: '554 170 8857'
+						},
+						{
+							title: 'Argentina',
+							phone: '011 5237-1369'
+						},
+						{
+							title: 'España',
+							phone: '911 87 58 23'
+						},
+						{
+							title: 'USA',
+							phone: '469 518 9271'
+						}
+					] %}
+					<div class="cities__col col col-4 col-sm-6">
+						<div class="cities__title">{{ item.title }}</div>
+						<a href="tel:" class="cities__phone">{{ item.phone }}</a>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom">
+		<div class="footer__inner inner">
+			<ul class="footer__soc soc sm-show">
+				<li class="soc__item"><a href="#">{{ mixins.icon('in') }}</a></li>
+				<li class="soc__item"><a href="#">{{ mixins.icon('tw') }}</a></li>
+				<li class="soc__item"><a href="#">{{ mixins.icon('fb') }}</a></li>
+			</ul>
+			<a href="#" class="logo-dev"><img src="./img/dev.png" alt="img"></a>
+		</div>
+	</div>
+</div>
+<!-- end footer -->

@@ -1,0 +1,47 @@
+.btn
+	padding: 13px 35px
+	+fmt
+	color: $blue
+	min-width: 195px
+	+f(14px,400,1.285)
+	border-radius: 22px
+	vertical-align: top
+	border: 1px solid
+	transition: color .3s, background-color .3s
+	display: inline-block
+	+hover
+		color: $white
+		background-color: $blue
+	&_sm
+		min-width: 99px
+		padding: 4px 15px
+		border-radius: 15px
+	&_black
+		border: none
+		color: $white
+		background-color: rgba(#25282B, .8)
+		box-shadow: 0 10px 22px 0 rgba(0,0,0,0.15)
+	&_blue
+		position: relative
+		// z-index: 1
+		color: $white
+		background-color: $blue
+		transition: color .3s, background-color .3s
+		&:before
+			position: absolute
+			content: ''
+			z-index: -1
+			top: 100%
+			left: 22px
+			right: 22px
+			height: 16px
+			margin-top: -2px
+			filter: blur(10px)
+			opacity: .33
+			transition: transform .3s
+			background-color: #4A4A4A
+		+hover
+			color: $blue
+			background-color: $white
+			&:before
+				transform: translateY(-8px)

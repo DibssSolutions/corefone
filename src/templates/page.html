@@ -1,0 +1,156 @@
+---
+title: Index page
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	
+	{% include "partials/_header.html" %}
+	<!-- begin mainhero -->
+	<div class="mainhero">
+		<div class="mainhero__img"  style="background-image: url(./img/mainhero.jpg);"></div>
+		<div class="mainhero__inner inner">
+			<h1 class="mainhero__title title-lg">Servicios innovadores de alta calidad</h1>
+		</div>
+		<!-- begin triangle -->
+		<div class="triangle triangle_main-hero"></div>
+		<!-- end triangle -->
+	</div>
+	<!-- end mainhero -->
+	<!-- begin main-wrap -->
+	<div class="main-wrap">
+		<div class="figure figure-main-top-right md-hide">
+			<img src="./img/figure-main-top-right.svg" alt="figure-main-top-right">
+		</div>
+		<div class="figure figure-main-middle-left md-hide">
+			<img src="./img/figure-main-mddle-left.svg" alt="figure-main-top-right">
+		</div>
+		<div class="figure figure-main-bottom-right md-hide">
+			<img src="./img/figure-main-bottom-right.svg" alt="figure-main-top-right">
+		</div>
+		<div class="inner">
+			<!-- begin services -->
+			<div class="services">
+				<h2 class="services__title title color-blue">Servicios</h2>
+				<div class="services__description">Bannersnack gives you the power to create html5 animation with no coding skills. Create an animated banner in 3 easy steps</div>
+				<div class="services__items-wrap">
+					<div class="services__items row">
+						{% for item in [
+							{
+								title: 'Atención de usuarios'
+							},
+							{
+								imgHover: 'services-hover-2.svg',
+								title: 'Servicios Outbound'
+							},
+							{
+								title: 'Inbound Marketing'
+							},
+							{
+								title: 'Soporte Omnicanal'
+							},
+							{
+								title: 'Back Office'
+							},
+							{
+								title: 'Business intelligence'
+							},
+							{
+								title: 'BPO - Proceso de negocio'
+							},
+							{
+								title: 'Mesa de ayuda'
+							}
+						] %}
+					    <div class="services__col col col-3 col-sm-6">
+					    	<a href="#" class="service">
+					    		<span class="service__icons">
+					    			<img class="service__icon-normal" src="./img/services-{{loop.index}}.svg" alt="img">
+					    			<img class="service__icon-hover" src="./img/services-hover-2.svg" alt="img">
+					    		</span>
+					    		<span class="service__title">{{ item.title }}</span>
+					    	</a>
+					    </div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+			<!-- end services -->
+			<!-- begin slider -->
+			<div class="slider js-slider">
+				{% for i in range(0,2) %}
+				    <div class="slider__slide">
+				    	<div class="slider__inner">
+				    		<div class="slider__left">
+				    			<div class="slider__title"><span class="slider__title-inner">industria de la Salud</span></div>
+				    			<a href="#" class="slider__view">
+				    				<div class="slider__view-icon"></div>
+				    				<div class="slider__view-text">Ver más</div>
+				    			</a>
+				    		</div>
+				    		<div class="slider__center" style="background-image: url(./img/slider-img.jpg);"></div>
+				    		<div class="slider__right">
+				    			<div class="slider__icon">
+				    				<img src="./img/doctor.svg" alt="img">
+				    			</div>
+				    			<div class="slider__text">
+				    				<p>Bannersnack gives you the power to create html5 animation with no coding skills. Create an animated banner in 3 easy steps.</p>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				{% endfor %}
+			</div>
+			<!-- end slider -->
+		</div>
+	</div>
+	<!-- end main-wrap -->
+	<!-- begin clients -->
+	<div class="clients">
+		<div class="clients__inner inner">
+			<h2 class="clients__title title">Clientes</h2>
+			<div class="clients__description">Bannersnack gives you the power to create html5 animation with no coding skills. Create an animated banner in 3 easy steps</div>
+			<div class="clients__slider js-clients-slider">
+				{% for i in range(0,2) %}
+				{% for i in range(0,5) %}
+				<div class="clients__slide"><img src="./img/clients-{{ loop.index }}.svg" alt="img"></div>
+				{% endfor %}
+				{% endfor %}
+			</div>
+			<div class="clients__footer">
+				<a href="#" class="btn btn_black">Ver testimonos</a>
+			</div>
+		</div>
+	</div>
+	<!-- end clients -->
+	<!-- begin contacts -->
+	<div class="contacts">
+		<div class="contacts__inner inner">
+			<div class="contacts__figures">
+				<img class="contacts__figures-desct" src="./img/figures-desct.svg" alt="img">
+				<img class="contacts__figures-mob" src="./img/figures-mob.svg" alt="img">
+			</div>
+			<div class="contacts__form">
+				<!-- begin form -->
+				<div class="form">
+					<h3 class="form__title title color-orange">Contáctanos ;)</h3>
+					<div class="form-control">
+						<input type="text" placeholder="Nombre">
+					</div>
+					<div class="form-control">
+						<input type="text" placeholder="E-Mail">
+					</div>
+					<div class="form-control">
+						<textarea placeholder="Mensaje"></textarea>
+					</div>
+					<div class="form__footer">
+						<button type="submit" class="btn btn_blue">Enviar</button>
+					</div>
+				</div>
+				<!-- end form -->
+			</div>
+		</div>
+	</div>
+	<!-- end contacts -->
+	{% include "partials/_footer.html" %}
+{% endblock %}

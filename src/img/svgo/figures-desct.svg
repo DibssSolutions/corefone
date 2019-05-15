@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="483px" height="623px" viewBox="0 0 483 623" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-145.000000, -2628.000000)" id="Group-22">
+            <g transform="translate(145.000000, 2628.000000)">
+                <polygon id="Fill-3" fill="#147EEC" points="290 397.784949 0.217274965 398 0 116.215051 289.778845 116"></polygon>
+                <g id="Group-7" transform="translate(185.000000, 339.000000)">
+                    <polygon id="Clip-6" points="0.455407221 0.0145702955 297.783858 0.0145702955 297.783858 284.074062 0.455407221 284.074062"></polygon>
+                    <polygon id="Fill-5" fill="#FF5C39" points="0.455407221 0.231256741 0.682389246 284.075557 297.786207 0.0145702955"></polygon>
+                </g>
+                <path d="M149.000044,141.884952 L149.000044,141.112287 C148.942153,65.9239833 206.161875,0.0609479727 290.289456,4.82636961e-05 C374.417037,-0.0646576772 430.942065,64.9419755 430.999956,140.115054 L430.999956,140.899138 C431.057847,216.072216 373.838125,281.935251 289.710544,281.999957 C205.582963,282.060857 149.057935,217.054224 149.000044,141.884952" id="Fill-1" fill="#63D50A"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,87 @@
+.services
+	text-align: center
+	padding: 90px 0 100px
+	+sm
+		padding: 41px 0 35px
+	&__items-wrap
+		margin: 0 auto
+		max-width: 810px
+	&__items
+		margin-bottom: -88px
+		+gpu
+		+sm
+			margin-bottom: -52px
+		&:not(:first-child)
+			margin-top: 74px
+	&__col
+		margin-bottom: 88px
+		+sm
+			margin-bottom: 43px
+	&__title
+		margin-bottom: 50px
+		+sm
+			margin-bottom: 32px
+	&__description
+		margin: 0 auto 80px
+		max-width: 670px
+		+f(16px,400,1.1875)
+		+sm
+			padding: 0 11px
+			margin-bottom: 51px
+			font-size: 13px
+			line-height: 1.5
+		+r(374)
+			padding: 0
+.service
+	text-align: center
+	color: $textColor
+	user-select: none
+	transition: color .3s
+	+f(16px,400,1.1875)
+	+sm
+		font-size: 14px
+		line-height: 1.5
+		text-align: center
+	+hover
+		color: $blue
+		.service__icon-normal
+			transform: perspective(600px) rotateY(-180deg)
+		.service__icon-hover
+			transform: perspective(600px) rotateY(0deg)
+	&__icons
+		position: relative
+		height: 92px
+		transform-style: preserve-3d
+		transition: 0.5s
+		display: block
+		img
+			display: block
+			max-width: 100%
+			max-height: 100%
+	&__icon-normal
+		position: relative
+		margin: 0 auto
+		z-index: 1
+		backface-visibility: hidden
+		-webkit-backface-visibility: hidden
+		transform: perspective(600px) rotateY( 0deg)
+		transform-origin: 50% 50%
+		transition: transform 0.5s
+	&__icon-hover
+		position: absolute
+		top: 0
+		right: 0
+		left: 0
+		margin: auto
+		backface-visibility: hidden
+		-webkit-backface-visibility: hidden
+		transform: perspective(600px) rotateY(180deg)
+		transform-origin: 50% 50%
+		transition: transform 0.5s
+		filter: drop-shadow(0 9px 14px rgba(0,0,0,0.15))
+	&__title
+		margin: 30px auto 0
+		max-width: 127px
+		display: block
+		+sm
+			margin-top: 14px

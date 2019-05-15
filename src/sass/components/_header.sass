@@ -1,0 +1,103 @@
+.header
+	padding: 27px 0
+	font-size: 14px
+	border-bottom: 1px solid #C2D1D9
+	+sm
+		position: relative
+		z-index: 10
+		padding: 27px 0 37px
+	&__inner
+		width: 100%
+		align-items: center
+		justify-content: space-between
+		flex-wrap: wrap
+		display: flex
+	&__left,
+	&__right
+		align-items: center
+		flex-wrap: wrap
+		display: flex
+	&__right
+		+sm
+			position: absolute
+			top: 84px
+			left: -100vw
+			padding: 37px 15px 30px
+			width: 100vw
+			min-height: 100vh
+			overflow: auto
+			transition: transform .3s
+			display: block
+			background-color: $white
+		.is-open-menu &
+			+sm
+				transform: translateX(100vw)
+.logo
+	width: 187px
+	vertical-align: top
+	display: inline-block
+	+sm
+		width: 191px
+	&__text
+		display: none
+	img
+		max-width: 100%
+		display: block
+.nav
+	font-weight: 400
+	.header &
+		margin-right: 30px
+		+sm
+			margin: 0 0 20px
+	&__list
+		flex-wrap: wrap
+		display: flex
+		+sm
+			flex-direction: column
+	&__item
+		&:not(:first-child)
+			margin-left: 23px
+			+sm
+				margin: 23px 0 0 
+		a
+			color: #505D68
+			transition: color .3s
+			+hover
+				color: $blue
+
+.btn-menu
+	position: relative
+	width: 23px
+	height: 11px
+	vertical-align: top
+	transition: transform .3s
+	background-color: transparent
+	display: none
+	&:before
+		position: absolute
+		content: ''
+		top: -15px
+		left: -10px
+		right: -10px
+		bottom: -15px
+	.is-open-menu &
+		transform: translateX(3px)
+	+sm
+		display: inline-block
+	&__line
+		position: absolute
+		left: 0
+		width: 23px
+		height: 4px
+		background-color: #505D68
+		transition: transform .3s
+		&:first-child
+			top: 0
+			transform-origin: center
+			.is-open-menu &
+				transform: rotate(45deg) translate(0px,5px)
+		&:last-child
+			bottom: 0
+			transform-origin: center
+			.is-open-menu &
+				transform: rotate(-45deg) translate(0px,-5px)

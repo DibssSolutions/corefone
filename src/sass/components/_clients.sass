@@ -1,0 +1,87 @@
+.clients
+	padding: 94px 0 81px
+	color: $white
+	text-align: center
+	background-color: #364049
+	+sm
+		padding: 49px 0 59px
+	&__title
+		margin-bottom: 48px
+	&__description
+		margin: 0 auto
+		max-width: 650px
+		opacity: .8
+		+f(15px,400,1.6)
+		+sm
+			padding: 0 11px
+			+f(13px,400,1.6)
+		+r(374)
+			padding: 0
+	&__slider
+		margin: 56px auto 0
+		max-width: 1090px
+		transition: opacity .35s, visibility .35s
+		opacity: 0
+		visibility: hidden
+		+sm
+			margin: 35px -30px 0
+			padding: 30px
+			overflow: hidden
+		&.slick-initialized
+			opacity: 1
+			visibility: visible
+		.slick-list
+			+sm
+				overflow: visible !important
+		&:before,
+		&:after
+			position: absolute
+			content: ''
+			top: 0
+			left: 0
+			width: 167px
+			bottom: 0
+			z-index: 1
+			background-color: #364049
+			filter: blur(40px)
+			+sm
+				display: none
+		&:after
+			left: auto
+			right: 0
+		.slick-track
+			display: flex
+		.slick-slide
+			height: auto
+			& > div
+				height: 100%
+	&__slide
+		padding: 0 30px
+		display: inline-flex !important
+		height: 100%
+		min-height: 90px
+		opacity: .5
+		transform: scale(.7)
+		transition: transform .6s, opacity .6s, padding .6s
+		align-items: center
+		justify-content: center
+		+sm
+			padding: 0 30px
+			width: 250px !important
+			opacity: 1
+			transform: none
+		.slick-current &
+			transform: scale(1)
+			opacity: 1
+			padding: 0
+			+sm
+				padding: 0 30px
+		img
+			display: block
+			max-width: 100%
+			width: auto
+	&__footer
+		margin-top: 63px
+		text-align: center
+		+sm
+			margin-top: 57px

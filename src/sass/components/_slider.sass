@@ -1,0 +1,205 @@
+.slider
+	position: relative
+	margin: 100px 0 76px
+	padding: 0 60px
+	transition: opacity .35s, visibility .35s
+	opacity: 0
+	visibility: hidden
+	+sm
+		margin: 39px 0 81px
+		padding: 0 43px 0 48px
+	&.slick-initialized
+		opacity: 1
+		visibility: visible
+	&__prev,
+	&__next
+		position: absolute
+		top: 50%
+		color: #505D68
+		opacity: .3
+		font-size: 0
+		margin-top: -45px
+		transition: opacity .3s
+		background-color: transparent
+		+hover
+			opacity: 1
+		+sm
+			margin-top: 6px
+	&__prev
+		left: 0
+		svg
+			+sm
+				width: 21px
+				height: 37px
+	&__next
+		right: 0
+		svg
+			+sm
+				width: 21px
+				height: 37px
+	&__slide
+		padding: 9px 0 13px
+		color: $white
+		+sm
+			padding: 15px 0 0
+	&__inner
+		margin: 0 auto
+		max-width: 901px
+		width: 100%
+		display: flex
+	&__left
+		padding-top: 11px
+		+fs(37%)
+		flex-direction: column
+		align-items: flex-end
+		display: flex
+		+sm
+			+fs(100%)
+			align-items: flex-start
+			flex-direction: initial
+			flex-wrap: wrap
+		&:after
+			content: ''
+			width: calc(100% - 126px)
+			bottom: 0
+			flex-grow: 1
+			height: 100px
+			background-color: #FF5C39
+	&__title
+		position: relative
+		padding: 53px 83px 57px 31px
+		+f(36px,600,1.02)
+		color: $white
+		background-color: #147EEC
+		display: block
+		+md
+			padding: 30px
+			font-size: 28px
+			width: 100%
+		+sm
+			padding: 52px 45px 62px 30px
+			font-size: 24px
+		+r(374)
+			padding-right: 30px
+		&:before
+			position: absolute
+			content: ''
+			top: -19px
+			right: 59px
+			+circle(38)
+			background-color: #FF5C39
+			+sm
+				top: -15px
+				right: auto
+				left: 28px
+				+circle(30)
+	&__title-inner
+		position: relative
+		display: block
+		&:before
+			position: absolute
+			content: ''
+			left: 1px
+			bottom: -11px
+			width: 27px
+			height: 2px
+			background-color: $white
+			+sm
+				bottom: -17px
+	&__view
+		width: 142px
+		height: 142px
+		flex-direction: column
+		display: flex
+		align-items: center
+		color: $white
+		justify-content: center
+		transition: color .3s
+		background-color: #63D50A
+		+sm
+			width: 126px
+			height: 127px
+		+hover
+			color: $blue
+			.slider__view-icon
+				border-color: $blue
+				&:before,
+				&:after
+					background-color: $blue
+	&__view-icon
+		position: relative
+		+circle(54)
+		transition: border-color .3s
+		border: 2px solid $white
+		&:before,
+		&:after
+			position: absolute
+			content: ''
+			top: 50%
+			left: 50%
+			transition: background-color .3s
+			transform: translate(-50%,-50%)
+			background-color: $white
+		&:before
+			width: 21px
+			height: 2px
+		&:after
+			height: 21px
+			width: 2px
+	&__view-text
+		margin-top: 4px
+		font-weight: 400
+		line-height: 1.17
+	&__center
+		+fs(21.4%)
+		margin-bottom: 12px
+		height: 389px
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+		+sm
+			display: none
+	&__right
+		+fs(41.6%)
+		+sm
+			display: none
+	&__icon
+		position: relative
+		z-index: 1
+		margin: 41px 0 -13px
+		padding: 30px
+		width: 166px
+		height: 166px
+		display: flex
+		align-items: center
+		justify-content: center
+		background-color: #63D50A
+		&:before
+			position: absolute
+			content: ''
+			bottom: 27px
+			right: -24px
+			+arr(28,28,#FF5C39,bl)
+		img
+			max-width: 100%
+			display: block
+	&__text
+		position: relative
+		min-height: 206px
+		font-weight: 400
+		line-height: 1.176
+		padding: 30px 23px 23px 43px
+		display: flex
+		align-items: center
+		justify-content: center
+		background-color: #2789EE
+		+md
+			padding: 30px 20px
+		&:before
+			position: absolute
+			content: ''
+			left: 0
+			bottom: -13px
+			width: 71px
+			height: 24px
+			background-color: #63D50A
