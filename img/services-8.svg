@@ -1,0 +1,10 @@
+<svg width="83" height="83" viewBox="0 0 83 83" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        Corefone_ManualWeb-8
+    </title>
+    <g transform="translate(1.64 1)" fill="none" fill-rule="evenodd">
+        <ellipse stroke="#147EEC" stroke-width="2" cx="39.867" cy="40.358" rx="39.867" ry="40.358"/>
+        <path stroke="#147EEC" stroke-width="2" d="M55.125 35.49v8.753H44.68v10.565h-8.642V44.243H25.594V35.49h10.444V24.913h8.642V35.49z"/>
+        <path fill="#558CCE" fill-rule="nonzero" opacity=".15" style="mix-blend-mode:multiply" d="M58.078 32.5v8.753H47.634v10.565H38.99V41.253H28.547v-8.752H38.99V21.923h8.643v10.578z"/>
+    </g>
+</svg>

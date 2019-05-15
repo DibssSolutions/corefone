@@ -1,0 +1,13 @@
+<svg width="82" height="96" viewBox="0 0 82 96" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        Corefone_ManualWeb-3
+    </title>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M14.194 44.573l27.013 27.07 27.051-27.07c-6.817-6.806-47.273-6.806-54.064 0z" fill="#558CCE" fill-rule="nonzero" opacity=".15" style="mix-blend-mode:multiply"/>
+        <path d="M20.374 28.146L41.207 49.05l20.846-20.904c-7.148-7.19-34.57-7.19-41.68 0z" fill="#558CCE" fill-rule="nonzero" opacity=".15" style="mix-blend-mode:multiply"/>
+        <path d="M80.21 55.255L41.22 94.404 2.217 55.255a54.645 54.645 0 0 1 31.23-15.672 56.198 56.198 0 0 1 7.76-.55 55.752 55.752 0 0 1 24.503 5.744 55.065 55.065 0 0 1 14.5 10.478z" stroke="#147EEC" stroke-width="2"/>
+        <path d="M61.887 26.649a40.402 40.402 0 0 1 13.252 8.687l-9.43 9.441a55.752 55.752 0 0 0-24.515-5.731 56.198 56.198 0 0 0-7.76.55 55.1 55.1 0 0 0-16.743 5.181l-9.416-9.454a40.555 40.555 0 0 1 13.265-8.687" stroke="#147EEC" stroke-width="2"/>
+        <path d="M68.806 19.69l-6.919 6.959a55.575 55.575 0 0 0-41.322 0l-6.932-6.96C19.33 13.945 30.274 9.8 41.22 9.8c10.945 0 21.865 4.146 27.586 9.89z" stroke="#147EEC" stroke-width="2"/>
+        <path d="M19.47 9.314l21.737 21.838 21.75-21.838A30.684 30.684 0 0 0 41.213.269 30.684 30.684 0 0 0 19.47 9.314z" fill="#558CCE" fill-rule="nonzero" opacity=".15" style="mix-blend-mode:multiply"/>
+    </g>
+</svg>
