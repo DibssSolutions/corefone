@@ -1,0 +1,23 @@
+<svg width="98" height="86" viewBox="0 0 98 86" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        Corefone_ManualWeb-6
+    </title>
+    <g transform="translate(-.423)" fill="none" fill-rule="evenodd">
+        <ellipse stroke="#147EEC" stroke-width="2" cx="9.455" cy="68.471" rx="8.003" ry="8.049"/>
+        <ellipse stroke="#147EEC" stroke-width="2" cx="67.066" cy="44.567" rx="8.003" ry="8.049"/>
+        <ellipse stroke="#147EEC" stroke-width="2" cx="33.871" cy="43.926" rx="11.596" ry="11.664"/>
+        <ellipse stroke="#147EEC" stroke-width="2" cx="83.021" cy="15.163" rx="11.596" ry="11.664"/>
+        <path d="M15.406 62.947l10.5-11.023" stroke="#147EEC" stroke-width="2"/>
+        <path d="M45.467 43.926h13.61" stroke="#147EEC" stroke-width="2"/>
+        <path d="M71.424 37.825l7.073-11.92" stroke="#147EEC" stroke-width="2"/>
+        <ellipse fill="#558CCE" fill-rule="nonzero" opacity=".15" style="mix-blend-mode:multiply" cx="33.871" cy="49.014" rx="12.424" ry="12.497"/>
+        <ellipse fill="#558CCE" fill-rule="nonzero" opacity=".15" style="mix-blend-mode:multiply" cx="9.455" cy="71.855" rx="8.856" ry="8.908"/>
+        <ellipse fill="#558CCE" fill-rule="nonzero" opacity=".15" style="mix-blend-mode:multiply" cx="83.021" cy="11.69" rx="11.596" ry="11.664"/>
+        <ellipse fill="#558CCE" fill-rule="nonzero" opacity=".15" style="mix-blend-mode:multiply" cx="67.066" cy="46.81" rx="12.271" ry="12.343"/>
+        <path d="M96.847 51.078c-15.59 17.02-38.163 25.778-61.077 23.7" stroke="#147EEC" stroke-width="2"/>
+        <path stroke="#147EEC" stroke-width="2" d="M90.348 51.116l6.422-.05.051 6.46"/>
+        <path d="M3.173 8.216h35.413" stroke="#147EEC" stroke-width="2"/>
+        <path d="M3.173 15.817h35.413" stroke="#147EEC" stroke-width="2"/>
+        <path stroke="#147EEC" stroke-width="2" d="M49.596 65.254h18.948v19.06H49.596z"/>
+    </g>
+</svg>
