@@ -1,0 +1,50 @@
+.process
+	padding: 146px 0 55px
+	flex-wrap: wrap
+	align-items: center
+	display: flex
+	+md
+		padding: 90px 0 45px
+	&__img
+		+fs(56%)
+		+md
+			+fs(100%)
+		img
+			max-width: 100%
+			display: block
+			+md
+				margin: 0 auto
+	&__content
+		padding-left: 54px
+		+fs(44%)
+		+md
+			margin-bottom: 50px
+			padding-left: 0
+			+fs(100%)
+			order: -1
+	&__title
+		margin-bottom: 17px
+	&__list
+		&:not(:first-child)
+			margin-top: 39px
+.list-square
+	font-size: 17px
+	line-height: 1.176
+	&__item
+		position: relative
+		padding-left: 24px
+		display: block
+		&:before
+			position: absolute
+			content: ''
+			top: 3px
+			left: 0
+			width: 13px
+			height: 13px
+			background-color: $blue
+		&:not(:last-child)
+			margin-bottom: 22px
+		&:last-child
+			margin-top: 41px
+	&__title
+		+f(17px,700,1.176)

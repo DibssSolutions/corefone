@@ -7,7 +7,7 @@
 	border-radius: 22px
 	vertical-align: top
 	border: 1px solid
-	transition: color .3s, background-color .3s
+	transition: color .3s, background-color .3s, border-color .3s
 	display: inline-block
 	+hover
 		color: $white
@@ -45,3 +45,9 @@
 			background-color: $white
 			&:before
 				transform: translateY(-8px)
+	&_green
+		color: $white
+		border-color: #63D50A
+		background-color: #63D50A
+		+hover
+			border-color: $blue

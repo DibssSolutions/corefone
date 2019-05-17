@@ -24,12 +24,18 @@
 
 +generate_grid
 
+.out
+	position: relative
+	overflow: hidden
 .inner
 	margin: 0 auto
 	padding: 0 15px
 	max-width: 1200px
 	+md
 		padding: 0 30px
+
+.main-wrap
+	position: relative
 
 .md-hide
 	+md
@@ -45,3 +51,6 @@
 	display: none !important
 	+sm
 		display: block !important
+
+.text-center
+	text-align: center

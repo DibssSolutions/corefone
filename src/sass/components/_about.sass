@@ -1,0 +1,56 @@
+.about
+	padding: 118px 0 94px
+	+md
+		padding: 90px 0
+	+sm
+		padding: 55px 0 30px
+	&__row
+		margin: 0 -32px -66px
+		+md
+			margin-bottom: -45px
+	&__col
+		padding: 0 32px
+		margin-bottom: 66px
+		+md
+			margin-bottom: 45px
+		+sm
+			margin-bottom: 30px
+.aboutitem
+	position: relative
+	padding: 33px 69px 29px 54px
+	height: 100%
+	border-radius: 20px
+	border: 1px solid #147EEC
+	+sm
+		padding: 30px
+	&.is-blue
+		color: $white
+		background-color: $blue
+	&:before
+		position: absolute
+		content: ''
+		top: 0
+		left: 0
+		bottom: 0
+		width: 30px
+		border-radius: 17px 0 0 17px
+		background-color: #147EEC
+		+sm
+			display: none
+	&__figure
+		position: absolute
+		right: 69px
+		top: 0
+		width: 46px
+		transform: translateY(-50%)
+		+sm
+			display: none
+		img
+			display: block
+	&__title
+		margin-bottom: 22px
+		+f(24px,700,1.2)
+		+sm
+			margin-bottom: 16px
+		+sm
+			margin-bottom: 10px

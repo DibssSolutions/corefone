@@ -1,0 +1,83 @@
+.hero
+	margin-bottom: 52px
+	padding: 132px 0
+	min-height: 577px
+	align-items: center
+	display: flex
+	color: $white
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	background-color: #63D50A
+	+sm
+		padding: 54px 0 132px
+	&__inner
+		width: 100%
+		align-items: center
+		justify-content: space-between
+		display: flex
+		+mid
+			display: block
+	&__content
+		padding-top: 47px
+		padding-right: 30px
+		flex-grow: 1
+		+f(17px,600,1.18)
+		+mid
+			padding-top: 0
+			margin-bottom: 50px
+		+sm
+			margin-bottom: 24px
+			padding-right: 0
+			font-size: 14px
+		.hero_mod &
+			padding-top: 23px
+			+mid
+				padding-top: 0
+	&__content-inner
+		max-width: 526px
+		+mid
+			max-width: 100%
+		.hero_mod &
+			max-width: 662px
+			+mid
+				max-width: 100%
+	&__head
+		margin-bottom: 39px
+		align-items: center
+		display: flex
+		+sm
+			margin-bottom: 24px
+			display: block
+		.hero_mod &
+			margin-bottom: 24px
+		img
+			max-width: 100%
+			display: block
+	&__icon
+		flex-shrink: 0
+		width: 82px
+		+sm
+			margin-bottom: 10px
+		& + .hero__title
+			margin-left: 38px
+			+sm
+				margin: 0
+	&__icon-circle
+		margin-right: 20px
+		flex-shrink: 0
+		+circle(98)
+		background-color: $white
+		+sm
+			margin-bottom: 10px
+	&__form
+		margin-bottom: -184px
+		width: 398px
+		flex-shrink: 0
+		+mid
+			width: 100%
+		+sm
+			margin-left: -30px
+			margin-right: -30px
+			min-width: 100%
+			width: auto

@@ -1,12 +1,38 @@
 .form
+	position: relative
 	text-align: center
+	&_black
+		padding: 27px 35px 31px 27px
+		color: $white
+		border-radius: 19px
+		background-color: #364049
+		.contacts &
+			+sm
+				margin: 0 -30px
+		&:before
+			position: absolute
+			content: ''
+			top: 100%
+			left: 50%
+			transform: translateX(-50%)
+			width: 284px
+			height: 27px
+			opacity: .33
+			filter: blur(10px)
+			background-color: #4A4A4A
 	&__title
 		margin-bottom: 25px
+		.form_black &
+			margin-bottom: 18px
 	&__footer
 		margin-top: 12px
 		+sm
 			margin-top: 4px
 .form-control
+	&_blue
+		input,
+		textarea
+			border: 1px solid #147EEC
 	&:not(:first-child)
 		margin-top: 14px
 		+sm
@@ -19,7 +45,6 @@
 		+fmt
 		color: #364049
 		+f(12px,400,1.25)
-		border: 1px solid #147EEC
 		border-radius: 20px
 		+sm
 			height: 50px
@@ -35,3 +60,10 @@
 		resize: none
 		+sm
 			height: 152px
+	&_sm
+		&:not(:first-child)
+			margin-top: 13px
+		input
+			height: 40px
+		textarea
+			height: 160px

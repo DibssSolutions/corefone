@@ -14,8 +14,15 @@
 			<nav class="nav">
 				<ul class="nav__list">
 					{% for text in ['Inicio','Acerca de nosotros','Servicios'] %}
-					    <li class="nav__item">
+					    <li class="nav__item{% if loop.last %} has-list{% endif %}">
 					    	<a href="#">{{ text }}</a>
+					    	{% if loop.last %}
+					    	<ul class="nav__innerlist">
+					    		<li><a href="#">Servicios some-page</a></li>
+					    		<li><a href="#">Servicios some-page</a></li>
+					    		<li><a href="#">Servicios some-page</a></li>
+					    	</ul>
+					    	{% endif %}
 					    </li>
 					{% endfor %}
 				</ul>

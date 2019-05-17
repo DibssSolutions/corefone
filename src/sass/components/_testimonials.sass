@@ -1,0 +1,112 @@
+.testimonials
+	position: relative
+	padding: 77px 0 89px
+	+md
+		padding: 90px 0
+	+sm
+		padding: 50px 0
+	&__title
+		margin-bottom: 83px
+		+md
+			margin-bottom: 60px
+	&__list
+		margin: 0 auto
+		max-width: 1039px
+
+.testimonial
+	position: relative
+	padding-left: 88px
+	align-items: center
+	display: flex
+	line-height: 1.42
+	&.is-right
+		padding: 0 88px 0 0
+		flex-direction: row-reverse
+		+sm
+			padding: 30px
+	+sm
+		padding: 30px
+		border-radius: 20px
+		border: 1px solid #147EEC
+		display: block
+	&:not(:last-child)
+		margin-bottom: 33px
+	&.testimonial_section
+		padding: 102px 30px 135px
+		color: #fff
+		background-color: #364049
+		margin-bottom: 125px
+		+r(1279)
+			margin-bottom: 0
+		+md
+			padding: 90px 30px
+		+sm
+			padding: 30px
+			border-radius: 0
+	&.testimonial_solutions
+		margin-bottom: 181px
+	&__inner
+		margin: 0 auto
+		max-width: 920px
+		align-items: center
+		display: flex
+		+sm
+			display: block
+	&__img
+		position: relative
+		flex-shrink: 0
+		margin: 0 -101px 0 -84px
+		+circle(185)
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+		background-color: #D8D8D8
+		box-shadow: 0 10px 20px rgba(#000, .34)
+		.testimonial_section &
+			margin: 0 68px 0 0
+			+md
+				margin-right: 30px
+			+sm
+				margin: 0 auto
+		+sm
+			margin: 0 auto
+	&__content
+		padding: 28px 68px 17px 170px
+		border-radius: 20px
+		min-height: 254px
+		display: flex
+		align-items: center
+		border: 1px solid #147EEC
+		+md
+			padding: 28px 30px 17px 130px
+		.testimonial.is-right &
+			padding: 28px 170px 17px 68px
+			+md
+				padding: 28px 110px 17px 30px
+			+sm
+				margin-top: 20px
+				padding: 0
+		+sm
+			margin-top: 20px
+			padding: 0
+			border: none
+		.testimonial_section &
+			padding: 0
+			min-height: 0
+			border: none
+	&__content-inner
+		flex-direction: column
+		display: flex
+		justify-content: space-between
+		min-height: 160px
+		.testimonial_section &
+			min-height: 0
+	&__footer
+		margin-top: 16px
+	&__author
+		margin-right: 9px
+		font-weight: 800
+		display: inline
+		+sm
+			margin: 0 0 3px
+			display: block

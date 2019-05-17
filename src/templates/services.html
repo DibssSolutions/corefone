@@ -1,0 +1,153 @@
+---
+title: Services
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	
+	{% include "partials/_header.html" %}
+	<!-- begin hero -->
+	<div class="hero" style="background-image: url(./img/hero-services.svg);">
+		<div class="hero__inner inner">
+			<div class="hero__content">
+				<div class="hero__content-inner">
+					<div class="hero__head">
+						<div class="hero__icon">
+							<img src="./img/hero-icon.svg" alt="img">
+						</div>
+						<h1 class="hero__title title-xl">Atención de usuarios</h1>
+					</div>
+					<p>Las personas utilizan, cada vez más, diferentes canales para comunicarse con una organización. Ofrecemos servicios de atención al cliente innovadores, que promueven una respuesta ágil y eficaz con el objetivo de evacuar consultas operativas, apoyar la solución remota de problemas, así como direccionarlos (si corresponde) hacia otras áreas de la empresa.</p>
+				</div>
+			</div>
+			<div class="hero__form">
+				<!-- begin form -->
+				<div class="form form_black">
+					<h3 class="form__title title">Contáctanos</h3>
+					<div class="form-control form-control_sm">
+						<input type="text" placeholder="Nombre">
+					</div>
+					<div class="form-control form-control_sm">
+						<input type="text" placeholder="E-Mail">
+					</div>
+					<div class="form-control form-control_sm">
+						<input type="text" placeholder="Teléfono">
+					</div>
+					<div class="form-control form-control_sm">
+						<textarea placeholder="Mensaje"></textarea>
+					</div>
+					<div class="form__footer">
+						<button type="submit" class="btn btn_green">Enviar</button>
+					</div>
+				</div>
+				<!-- end form -->
+			</div>
+		</div>
+	</div>
+	<!-- end hero -->
+	<div class="inner">
+		<!-- begin process -->
+		<div class="process">
+			<div class="process__img">
+				<img src="./img/process-img.jpg" alt="img">
+			</div>
+			<div class="process__content">
+				<h2 class="process__title title-md">Nuestro proceso</h2>
+				<p>Ofrecemos una atención omnicanal al usuario de acuerdo a las nuevas necesidades del mercado:</p>
+				<ul class="process__list list-square">
+					{% for item in [
+						{
+							title: 'Canales tradicionales',
+							text: 'Correo electrónico.  Líneas telefónicas fijas y móviles. '
+						},
+						{
+							title: 'Mensajería en redes',
+							text: 'Whatsapp. Facebook Messenger. Twitter, Skype, etc.'
+						},
+						{
+							title: 'Servicios de contacto al cliente',
+							text: 'Procesos de gestión de agendas. Gestión de cobranzas.'
+						},
+						{
+							title: 'Chatbots en RRSS y sitio web',
+							text: 'Automatización del proceso de atención al cliente.'
+						}
+					] %}
+				    <li class="list-square__item">
+				    	<div class="list-square__title">{{ item.title }}</div>
+				    	<p>{{ item.text }}</p>
+				    </li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		<!-- end process -->
+		<!-- begin why -->
+		<div class="why">
+			<h2 class="why__title title text-center">Por qué contratar nuestro servicio de atención de usuarios</h2>
+			<div class="why__row row">
+				{% for item in [
+					{
+						top: '500k',
+						text: '500.000 (+) contactos <br>al mes',
+						class: 'color-blue'
+					},
+					{
+						top: '100%',
+						text: '100% conversaciones grabadas y monitorización en tiempo real para el control y gestión de calidad',
+						class: 'color-orange'
+					},
+					{
+						top: '24x7',
+						text: 'Equipo especializado en servicios de contact center con horarios que cumplen 24x7x365',
+						class: 'color-green'
+					}
+				] %}
+			    <div class="why__col col col-4 col-sm-12">
+			    	<div class="why__item">
+			    		<div class="why__top{% if item.class %} {{ item.class }}{% endif %}">{{ item.top }}</div>
+			    		<p>{{ item.text | safe }}</p>
+			    	</div>
+			    </div>
+				{% endfor %}
+			</div>
+		</div>
+		<!-- end why -->
+		<!-- begin infosteps -->
+		<div class="infosteps">
+			<div class="infosteps__content">
+				<ul class="counterlist">
+					{% for text in ['Las llamadas pueden priorizarse por origen y derivarse a un agente por diferentes grados de especialización.','Contamos con una plataforma de contact center con tecnología omnicanal.','Ofrecemos automatizar procesos basados en las últimas tecnologías de machine learning y big data','Diseñamos servicios específicos a las necesidades del negocio','Trabajamos en la formación contínua de los operadores usando como base la escucha conjunta de la grabación de las llamadas.','Cumplimos con la normativa de protección y seguridad de datos vigente en cada país.','Ofrecemos una disponibilidad horaria completa, los 365 días del año.','Nuestros costos operativos son extremadamente competitivos.'] %}
+					<li><span>{{ text }}</span></li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="infosteps__img">
+				<img src="./img/infosteps-img.jpg" alt="img">
+			</div>
+		</div>
+		<!-- end infosteps -->
+	</div>
+	<!-- begin testimonial -->
+	<div class="testimonial testimonial_section">
+		<div class="testimonial__inner">
+			<div class="testimonial__img" style="background-image: url(./img/);"></div>
+			<div class="testimonial__content">
+				<div class="testimonial__content-inner">
+					<p>“Confíe a Corefone la externalización de su servicio de Gestion de contactos. Con más de 20 años de experiencia en servicios BPO, Corefone ha trabajado con socios referentes en sus industrias, desarrollando soluciones según sus exigencias. Comparta sus necesidades de servicio con nosotros, podemos estar seguros que superaremos sus expectativas. Es muy sencillo.”</p>
+					<div class="testimonial__footer">
+						<div class="testimonial__author">Joaquina Asis</div>// Founder Iugo
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="figure figure-testimonial-circle-top md-hide">
+			<img src="./img/figure-testimonial-circle-top.svg" alt="figure-testimonial-circle-top">
+		</div>
+		<div class="figure figure-testimonial-triangle-bottom md-hide">
+			<img src="./img/figure-testimonial-triangle-bottom.svg" alt="figure-testimonial-triangle-bottom">
+		</div>
+	</div>
+	<!-- end testimonial -->
+	{% include "partials/_footer.html" %}
+{% endblock %}

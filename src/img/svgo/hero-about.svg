@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2662px" height="577px" viewBox="0 0 2662 577" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>hero-about</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hero-about" fill-rule="nonzero">
+            <polygon id="Mask" fill="#63D50A" points="0 0 2662 0 2662 577 0 577"></polygon>
+            <g id="Group-3" transform="translate(1191.000000, 0.000000)" fill="#147EEC">
+                <path d="M394.93798,-3.55271368e-14 C477.677739,72.3861845 525.910806,179.380558 525.999878,295.042862 L525.999878,297.219946 C526.08239,404.363067 484.258904,504.694686 411.935118,577 L1.4086271e-07,577 L1.4086271e-07,-5.68434189e-14 L394.93798,-3.55271368e-14 Z" id="Combined-Shape" transform="translate(263.000000, 288.500000) rotate(-180.000000) translate(-263.000000, -288.500000) "></path>
+                <path d="M657.93798,-5.63758434e-14 C740.677739,72.3861845 788.910806,179.380558 788.999878,295.042862 L788.999878,297.219946 C789.08239,404.363067 747.258904,504.694686 674.935118,577 L263,577 L263,-7.76921255e-14 L657.93798,-5.63758434e-14 Z" id="Combined-Shape-Copy"></path>
+            </g>
+            <polygon id="Combined-Shape" fill="#FF5C39" points="826 577 0 577 0 344.773443 296.854866 48"></polygon>
+            <polygon id="Combined-Shape-Copy-2" fill="#FF5C39" transform="translate(2162.000000, 264.500000) rotate(-180.000000) translate(-2162.000000, -264.500000) " points="2661.71533 529 1662 529 1662 470.442841 2132.83909 0 2662 528.715575"></polygon>
+        </g>
+    </g>
+</svg>

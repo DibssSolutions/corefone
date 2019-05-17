@@ -1,0 +1,55 @@
+.infosteps
+	padding: 64px 0 91px
+	align-items: center
+	display: flex
+	flex-wrap: wrap
+	+md
+		padding: 45px 0 90px
+	+sm
+		padding: 30px 0 60px
+	&__content
+		padding-right: 20px
+		+fs(63%)
+		+md
+			padding: 0
+			margin-bottom: 50px
+			+fs(100%)
+		+sm
+			margin-bottom: 30px
+	&__img
+		flex-shrink: 0
+		+fs(37%)
+		+md
+			+fs(100%)
+		img
+			max-width: 100%
+			display: block
+			+md
+				margin: 0 auto
+.counterlist
+	counter-reset: list
+	color: #505D68
+	.infosteps &
+		max-width: 620px
+	li
+		align-items: center
+		display: flex
+		&:before
+			counter-increment: list
+			content: counter(list)
+			margin-right: 24px
+			flex-shrink: 0
+			color: #63D50A
+			+circle(41)
+			font-size: 24px
+			font-weight: 500
+			line-height: 37px
+			text-align: center
+			border: 2px solid #63D50A
+			+sm
+				margin-right: 20px
+				font-size: 20px
+		&:not(:first-child)
+			margin-top: 25px
+		span
+			flex-grow: 1

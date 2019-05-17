@@ -7,6 +7,7 @@ body
 	+fmt
 	+font-smoothing
 	color: $textColor
+	min-width: 320px
 	background-color: $white
 	+sm
 		font-size: 14px
@@ -17,19 +18,39 @@ body
 		width: 100%
 		overflow: hidden
 
+.title-xl
+	+f(56px,600,1.01)
+	+md
+		font-size: 42px
+	+sm
+		+f(34px,600,1.3125)
+
 .title-lg
 	+f(45px,600,1.13)
 	+sm
 		+f(32px,600,1.3125)
 .title
-	+f(36px,600,1.22)
+	+f(36px,500,1.22)
+	+sm
+		+f(24px,500,1.2)
+.title-md
+	+f(31px,600,1.22)
 	+sm
 		+f(24px,600,1.2)
-
-.main-wrap
-	position: relative
-
 .color-blue
 	color: $blue
 .color-orange
 	color: #FF5C39
+.color-green
+	color: #63D50A
+
+.info
+	padding: 63px 0 70px
+	color: #505D68
+	+md
+		padding: 45px 0
+	+sm
+		padding: 30px 0
+	&__inner
+		margin: 0 auto
+		max-width: 1011px

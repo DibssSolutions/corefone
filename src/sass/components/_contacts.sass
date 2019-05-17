@@ -1,9 +1,15 @@
 .contacts
 	padding: 96px 0 140px
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
 	+md
 		padding-bottom: 90px
 	+sm
 		padding: 82px 0 53px
+	&_img
+		padding: 77px 0 127px
+		border-top: 1px solid #C2D1D9
 	&__inner
 		justify-content: space-between
 		flex-wrap: wrap
@@ -32,4 +38,6 @@
 		flex-shrink: 0
 		width: 100%
 		max-width: 365px
+		.contacts_img &
+			margin: 0 0 0 auto
 	

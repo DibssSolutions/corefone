@@ -1,0 +1,149 @@
+---
+title: Solutions
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	
+	{% include "partials/_header.html" %}
+	<!-- begin hero -->
+	<div class="hero hero_mod" style="background-image: url(./img/solutions-img.svg);">
+		<div class="hero__inner inner">
+			<div class="hero__content">
+				<div class="hero__content-inner">
+					<div class="hero__head">
+						<div class="hero__icon-circle" style="background-image: url(./img/icon-circle.svg);"></div>
+						<h1 class="hero__title title-xl">Solución para <br>e-commerce</h1>
+					</div>
+					<p>El sector retail/e-commerce exige soluciones para fortalecer los procesos de servicio y contribuir a ampliar y potenciar su mercado. Para lograrlo, proponemos un paquete de servicios a la medida de sus necesidades. Principalmente con foco en: mejorar la atención a sus clientes, conocer el grado de satisfacción con los servicios y aumentar la capacidad de atención.</p>
+				</div>
+			</div>
+			<div class="hero__form">
+				<!-- begin form -->
+				<div class="form form_black">
+					<h3 class="form__title title">Contáctanos</h3>
+					<div class="form-control form-control_sm">
+						<input type="text" placeholder="Nombre">
+					</div>
+					<div class="form-control form-control_sm">
+						<input type="text" placeholder="E-Mail">
+					</div>
+					<div class="form-control form-control_sm">
+						<input type="text" placeholder="Teléfono">
+					</div>
+					<div class="form-control form-control_sm">
+						<textarea placeholder="Mensaje"></textarea>
+					</div>
+					<div class="form__footer">
+						<button type="submit" class="btn btn_green">Enviar</button>
+					</div>
+				</div>
+				<!-- end form -->
+			</div>
+		</div>
+	</div>
+	<!-- end hero -->
+	<div class="inner">
+		<!-- begin include -->
+		<div class="include">
+			<div class="include__inner">
+				<h2 class="include__title title text-center">Servicios incluidos</h2>
+				<div class="include__row row">
+					{% for item in [
+						{
+							icon: '',
+							text: 'Soporte Omnicanal'
+						},
+						{
+							icon: '',
+							text: 'Inbound Marketing'
+						},
+						{
+							icon: '',
+							text: 'Business Intelligence'
+						}
+					] %}
+				    <div class="include__col col col-4 col-sm-12">
+				    	<div class="includeitem">
+				    		<div class="includeitem__icon">
+				    			<img src="./img/include-{{ loop.index }}.svg" alt="img">
+				    		</div>
+				    		<div class="includeitem__text">{{ item.text }}</div>
+				    	</div>
+				    </div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<!-- end include -->
+		<!-- begin info -->
+		<div class="info">
+			<div class="info__inner">
+				<div class="info__row row">
+					<div class="info__col col col-4"></div>
+					<div class="info__col col col-8 col-md-12">
+						<p>Trabajamos para una plataforma online que vincula a personas con necesidades odontológicas con los profesionales dispuestos a brindar servicios de alta calidad a precios accesibles. Nuestro cliente, con presencia en 5 países, logró aumentar el ratio de conversión de las campañas de generación de demanda mediante tiempos de atención inmediatos, y aumentó la capacidad de atención incluyendo los canales de redes sociales como opciones de comunicación.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end info -->
+		<!-- begin solutions -->
+		<div class="solutions">
+			{% for item in [
+				{
+					title: 'Servicio de gestión de agendas médicas.',
+					text: 'Diseño, desarrollo y mantenimiento de solución de Bots en Facebook, SMS y Whatsapp para automatizar la solicitud de agendas. Incorporamos esta tecnología para los procesos de encuesta de satisfacción, reserva de hora y atención al cliente. Estas soluciones se integran con los sistemas de la empresa para la actualización de información y consulta de horarios disponibles para las reservas. '
+				},
+				{
+					title: '​Atención al Paciente',
+					text: 'Atención de pacientes utilizando canales tradicionales (telefónico, mail) y también canales de mensajería en redes (Facebook Messenger y Whatsapp). Cuentan con disponibilidad las 24hs los 365 días del año, con un volumen de actividad de hasta 6000 conversaciones mensuales.'
+				},
+				{
+					title: 'Servicios de BPO para e-commerce',
+					text: 'Generamos un dashboard de Market Insights mediante el cual se brinda información valiosa para la toma de decisiones a través del procesamiento y análisis automático de datos. Le damos al cliente la posibilidad de acceder a un dashboard online con los indicadores del servicio, indicadores operativos e indicadores de negocio.'
+				},
+				{
+					title: 'Servicio de Análisis de Datos.',
+					text: 'Utilizamos varias herramientas de análisis para la mejora continua del proceso, pronóstico y staffing. Desarrollamos un modelo predictivo utilizando datos históricos de tráfico en función de la inversión en publicidad online del cliente. Esto permite contar con los recursos necesarios para el volumen y distribución de los contactos.'
+				}
+			] %}
+			<!-- begin solution -->
+			<div class="solution">
+				<div class="solution__img"{% if loop.first %} style="background-image: url(http://lorempixel.com/640/360);"{% endif %}></div>
+				<div class="solution__content">
+					<div class="solution__content-inner">
+						<div class="solution__title title">{{ item.title }}</div>
+						<p>{{ item.text }}</p>
+					</div>
+					<div class="solution__arrow">{{ mixins.icon('arrow-right') }}</div>
+				</div>
+			</div>
+			<!-- end solution -->
+			{% endfor %}
+		</div>
+		<!-- end solutions -->
+	</div>
+	<!-- begin testimonial -->
+	<div class="testimonial testimonial_section testimonial_solutions">
+		<div class="testimonial__inner">
+			<div class="testimonial__img" style="background-image: url(./img/);"></div>
+			<div class="testimonial__content">
+				<div class="testimonial__content-inner">
+					<p>“Confíe a Corefone la externalización de su servicio de Gestion de contactos. Con más de 20 años de experiencia en servicios BPO, Corefone ha trabajado con socios referentes en sus industrias, desarrollando soluciones según sus exigencias. Comparta sus necesidades de servicio con nosotros, podemos estar seguros que superaremos sus expectativas. Es muy sencillo.”</p>
+					<div class="testimonial__footer">
+						<div class="testimonial__author">Joaquina Asis</div>// Founder Iugo
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="figure figure-testimonial-square-top md-hide">
+			<img src="./img/figure-testimonial-square-top.svg" alt="figure-testimonial-square-top">
+		</div>
+		<div class="figure figure-testimonial-circle-bottom md-hide">
+			<img src="./img/figure-testimonial-circle-bottom.svg" alt="figure-testimonial-circle-bottom">
+		</div>
+	</div>
+	<!-- end testimonial -->
+	{% include "partials/_footer.html" %}
+{% endblock %}

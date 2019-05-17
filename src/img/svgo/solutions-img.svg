@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2560px" height="577px" viewBox="0 0 2560 577" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 0.000000)">
+            <polygon id="Mask" fill="#63D50A" points="0 0 2560 0 2560 577 0 577"></polygon>
+            <path d="M1701.93798,2.13162821e-14 C1784.67774,72.3861845 1832.91081,179.380558 1832.99988,295.042862 L1832.99988,297.219946 C1833.08239,404.363067 1791.2589,504.694686 1718.93512,577 L1307,577 L1307,0 L1701.93798,0 Z" id="Combined-Shape" fill="#147EEC" transform="translate(1570.000000, 288.500000) rotate(-180.000000) translate(-1570.000000, -288.500000) "></path>
+            <path d="M2224.93798,2.13162821e-14 C2307.67774,72.3861845 2355.91081,179.380558 2355.99988,295.042862 L2355.99988,297.219946 C2356.08239,404.363067 2314.2589,504.694686 2241.93512,577 L1830,577 L1830,0 L2224.93798,0 Z" id="Combined-Shape" fill="#147EEC" transform="translate(2093.000000, 288.500000) rotate(-360.000000) translate(-2093.000000, -288.500000) "></path>
+            <path d="M1225.87276,577 L168,577 L168,576.745514 L696.809136,47.9363785 L1225.87276,577 Z" id="Combined-Shape" fill="#FF5C39"></path>
+            <rect id="Rectangle-4" fill="#147EEC" x="1660" y="0" width="339" height="577"></rect>
+        </g>
+    </g>
+</svg>
